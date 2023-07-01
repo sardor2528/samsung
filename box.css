@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    /* rem html font-size dan meros oladi */
+    font-size: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    padding: 50px;
+    border: 20px solid red;
+}
+
+.text {
+    font-size: 10px;
+}
+
+.title {
+    text-align: center;
+    color: red;
+    /* 1rem - 16px (default)*/
+    font-size: 3rem;
+    /* 1em - 16px (default)*/
+    font-size: 2em;
+}
+
+.main {
+    width: 800px;
+    height: 50vh;
+    border: 1px solid red;
+    margin: 30px auto;
+}
+
+.first {
+    width: 50%;
+    height: 40px;
+    background: green;
+}
+
+.second {
+    width: 50vw;
+    height: 40px;
+    background: pink;
+}
+
+
+
